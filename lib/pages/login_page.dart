@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rumanza_app/pages/dashboard_2.dart';
+import 'package:rumanza_app/pages/dashboard.dart';
 import 'package:rumanza_app/widgets/gradient_button.dart';
 import 'package:rumanza_app/widgets/login_field.dart';
 import 'package:lottie/lottie.dart';
@@ -92,7 +92,7 @@ class LoginScreen extends StatelessWidget {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const Dash(),
+                              builder: (context) => const Dashboard(),
                             ));
                       },
                     ),
